@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <title>Star Wars Game-unit-4</title>
+
+  <!-- Added link to the jQuery Library -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+<body>
+    <header>
+      <img src="assets/images/starwars.jpg">
+    </header>
+    <div class= "container" id="main-game-section">
+      <div class="container col-log-12" id="charaters-section">
+        <div class= "character" data-name= "darthMaul">
+            <div class="character-name">Darth Maul</div>
+            <img alt="image" clas="character-image" src="assets/images/darthMaul.jpg">
+            <div class="character-health">120</div>
+        </div>
+        <div class= "character" data-name= "darthSidious">
+            <div class="character-name">Darth Sidious </div>
+            <img alt="image" clas="character-image" src="assets/images/darthSidious.jpg">
+            <div class="character-health">100</div>
+        </div>
+        <div class= "character" data-name= "lukeSkywalker">
+            <div class="character-name">Luke Sky Walker</div>
+            <img alt="image" clas="character-image" src="assets/images/lukeSkywalker.jpg">
+            <div class="character-health">150</div>
+        </div>
+        <div class= "character" data-name= "obiWan">
+            <div class="character-name">Obi Wan</div>
+            <img alt="image" clas="character-image" src="assets/images/obiWan.jpg">
+            <div class="character-health">180</div>
+        </div>
+        <div class="container selction title">Select Your Character</div>
+      </div>
+      <div class="container col-lg-4" id="selected-character-section">
+        <div class= "section-title container"></div>
+        <div id="selected-character"></div>
+      </div>
+      <div class="section-title container col-lg-4">Fight Section
+        <div id="fight-section">
+            <button class="btn" id="attack-button">Attack</button>
+            <div class="jumbotron" id="gameMessage"></div>
+        </div>   
+      </div>	
+      <div id="action">
+          <div class="character-section">
+            <div class="container section-title col-lg-3">
+              <div id="defender"></div>
+            </div>	
+          </div>
+        </div>
+        <div class="container" id="available-to-attack-section">
+            <div class="section-title"></div>
+          </div> 
+          
+          
+      <!--     <div class="jumbotron" id="gameMessage"></div> -->
+
+  </div>
+
+  <footer class="footer">
+    <div class="footerContainer">
+
+      <p><a href="https://esengupta.github.io/Star-Wars-Game-unit4/">GitHub Repo-esengupta</a>
+        <br>@ 2018 Enakshi </p>
+
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+  
+  
+</body>
+
+</html>
