@@ -21,8 +21,8 @@
     <header>
       <img src="assets/images/starwars.jpg">
     </header>
-    <div class= "container" id="main-game-section">
-      <div class="container col-log-12" id="charaters-section">
+    <div class= "row" id="main-game-section">
+      <div class="container col-lg-8" id="charaters-section">
         <div class= "character" data-name= "darthMaul">
             <div class="character-name">Darth Maul</div>
             <img alt="image" clas="character-image" src="assets/images/darthMaul.jpg">
@@ -43,33 +43,46 @@
             <img alt="image" clas="character-image" src="assets/images/obiWan.jpg">
             <div class="character-health">180</div>
         </div>
-        <div class="container selction title">Select Your Character</div>
-      </div>
-      <div class="container col-lg-4" id="selected-character-section">
-        <div class= "section-title container"></div>
-        <div id="selected-character"></div>
-      </div>
-      <div class="section-title container col-lg-4">Fight Section
-        <div id="fight-section">
-            <button class="btn" id="attack-button">Attack</button>
-            <div class="jumbotron" id="gameMessage"></div>
-        </div>   
-      </div>	
-      <div id="action">
-          <div class="character-section">
-            <div class="container section-title col-lg-3">
-              <div id="defender"></div>
-            </div>	
-          </div>
-        </div>
-        <div class="container" id="available-to-attack-section">
-            <div class="section-title"></div>
-          </div> 
-          
+      </div>       
           
       <!--     <div class="jumbotron" id="gameMessage"></div> -->
 
-  </div>
+    </div>
+    
+    <div class="container row">
+      <div class ='col-lg-2'>
+          <div class="container selction title">Select Your Character</div>
+          <div class="container col-lg-4" id="selected-character-section">
+            <div class= "section-title container"></div>
+            <div id="selected-character"></div>
+          </div>
+      </div>
+      <div class="container col-lg-8">
+         
+          <div class="section-title container col-lg-4">Fight Section
+            <div id="fight-section">
+                <button class="btn" id="attack-button">Attack</button>
+                <div class="jumbotron" id="gameMessage"></div>
+            </div>   
+          </div>	
+        </div>
+      <div class="col-lg-2">
+          <div id="action">
+              <div class="character-section">
+                <div class="container section-title col-lg-3">
+                  <div id="defender"></div>
+                </div>	
+              </div>
+          </div>
+      </div>
+
+    </div>
+      <div class='row'>
+                <div class="container col-lg-8" id="available-to-attack-section">
+            <div class="section-title"></div>
+          </div> 
+
+        </div>
 
   <footer class="footer">
     <div class="footerContainer">
